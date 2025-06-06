@@ -49,6 +49,10 @@ export default function addProject(){
     }
     
     submitButton.onclick=()=>{
+        if(input.value===""){
+            alert("Name of the Project cannot be empty!");
+            return
+        }
         if(localStorage.length===0)
         {
             localStorage.setItem("projects", "[]");
