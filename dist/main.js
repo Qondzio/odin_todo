@@ -16,7 +16,7 @@
   \**************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body{\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n    font-family: 'Manrope';\n    height: 100vh;\n}\nheader{\n    display: flex;\n    align-items: center;\n    padding: 10px 30px;\n    border-bottom: 2px solid rgb(5, 182, 5);\n}\n.header_text{\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-size: 3rem;\n    font-weight: 600;\n    color: rgb(36, 31, 54);\n}\n.header_text span{\n    color: rgb(5, 182, 5);\n}\n.header_hamburger img:hover, .project:hover, .main_add_projects:hover{\n    cursor: pointer;\n    background-color: rgb(221, 220, 220);\n    border-radius: 5px;\n}\nmain{\n    display: flex;\n    background-color: rgb(235, 234, 234);\n    height: 100%;\n}\nmain h2, h3{\n    margin: 0;\n    color: rgb(36, 31, 54);\n}\n.main_left{\n    width: 18%;\n    height: 100%;\n    padding: 30px 15px;\n    background-color: white;\n    border-right: 2px solid rgb(5, 182, 5);\n    transform: translateX(0);\n    transition: transform 0.3s ease-in-out;\n}\n.main_left_active{\n    transform: translateX(0);\n}\n.main_left > h2:first-child{\n    border-bottom: 2px solid rgb(36, 31, 54);\n    padding-bottom: 5px;\n    margin-bottom: 10px;\n}\n.main_right{\n    width: 100%;\n    height: 100%;\n}\n.main_add_projects{\n    margin-top: 20px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n    padding: 10px;\n}\n.main_projects{\n    display: flex;\n    flex-direction: column;\n    gap: 5px;\n}\n.project{\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    padding: 10px;\n    gap: 10px;\n}\n.left{\n    display: flex;\n    align-items: center;\n    gap: 10px;\n}\n.right{\n    display: flex;\n    align-items: center;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `html{\n    height: 100%;\n}\nbody{\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n    font-family: 'Manrope';\n    height: 100%;\n}\nheader{\n    display: flex;\n    align-items: center;\n    padding: 10px 30px;\n    border-bottom: 2px solid rgb(5, 182, 5);\n}\n.header_text{\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    font-size: 3rem;\n    font-weight: 600;\n    color: rgb(36, 31, 54);\n}\n.header_text span{\n    color: rgb(5, 182, 5);\n}\n.header_hamburger img:hover, .project:hover, .main_add_projects:hover{\n    cursor: pointer;\n    background-color: rgb(221, 220, 220);\n    border-radius: 5px;\n}\nmain{\n    background-color: rgb(235, 234, 234);\n    position: relative;\n    display: flex;\n    justify-content: center;\n    height: 100%;\n}\nmain h2, h3{\n    margin: 0;\n    color: rgb(36, 31, 54);\n}\n.main_left{\n    width: 18%;\n    height: 100%;\n    padding: 0 20px;\n    background-color: white;\n    border-right: 2px solid rgb(5, 182, 5);\n    transform: translateX(-100%);\n    transition: transform 0.3s ease-in-out;\n    position: absolute;\n    top: 0;\n    left: 0;\n}\n.main_left_active{\n    transform: translateX(0);\n}\n.main_left > h2:first-child{\n    border-bottom: 2px solid rgb(36, 31, 54);\n    padding-bottom: 5px;\n    padding-top: 15px;\n    margin-bottom: 10px;\n}\n.main_add_projects, .main_add_task{\n    margin-top: 20px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n    padding: 10px;\n}\n.main_projects{\n    display: flex;\n    flex-direction: column;\n    gap: 5px;\n}\n.project{\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    padding: 10px;\n    gap: 10px;\n}\n.left{\n    display: flex;\n    align-items: center;\n    gap: 10px;\n}\n.right{\n    display: flex;\n    align-items: center;\n}\n.main_right{\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n.main_right h2{\n    padding-top: 15px;\n    font-size: 2rem;\n}\n#h2_project_name{\n    color: rgb(5, 182, 5);\n    text-transform: uppercase;\n}\n.main_right_title{\n    display: flex;\n    gap: 5px;\n    border-bottom: 2px solid rgb(36, 31, 54);\n    padding-bottom: 10px;\n    margin-bottom: 10px;\n}\n.main_tasks{\n    display: flex;\n    flex-direction: column;\n    gap: 15px;\n    width: 130%;\n}\n.task{\n    padding: 10px 20px;\n    background-color: white;\n    border-radius: 15px;\n    border-left: 10px solid red;\n    border-top: 1px solid rgb(204, 202, 202);\n    border-right: 1px solid rgb(204, 202, 202);\n    border-bottom: 1px solid rgb(204, 202, 202);\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n}\n.task_info_left, .task_info_right{\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 10px;\n}\n.task_info_left h4{\n    margin: 0;\n    font-size: 1.2rem;\n}\n.unchecked{\n    width: 18px;\n    height: 18px;\n    border: 2px solid rgb(83, 83, 83);\n    border-radius: 50%;\n}\n.main_add_task{\n    font-size: 20px;\n}\n.main_add_task:hover{\n    cursor: pointer;\n    background-color: rgb(209, 209, 209);\n    border-radius: 5px;\n}\ndialog{\n    display: none;\n    border: none;\n    border-radius: 15px;\n    font-size: 1.2rem;\n    display: flex;\n    flex-direction: column;\n    gap: 30px;\n}\ndialog h3{\n    text-align: center;\n}\n.dialog_inputs, .dialog_buttons{\n    margin: 0;\n    display: flex;\n    flex-direction: column;\n    gap: 40px;\n}\ninput[type=text]{\n    padding: 10px;\n    font-size: 0.9rem;\n    border-radius: 5px;\n    outline: none;\n    border: 1px solid rgb(209, 209, 209);\n}\n.dialog_buttons{\n    gap: 10px;\n    padding-top: 5px;\n}\n.dialog_buttons .submit_button, .dialog_buttons .cancel_button{\n    background-color: rgb(5, 182, 5);\n    border: none;\n    border-radius: 5px;\n    color: white;\n    padding: 10px;\n    font-size: 0.9rem;\n}\n.dialog_buttons .cancel_button{\n    background-color: rgb(224, 5, 5);\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack:///./src/styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -100,13 +100,53 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
 
 /***/ }),
 
+/***/ "./src/images/delete.svg":
+/*!*******************************!*\
+  !*** ./src/images/delete.svg ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"images/3981cc7d16f7ee9835dd.svg\";\n\n//# sourceURL=webpack:///./src/images/delete.svg?");
+
+/***/ }),
+
+/***/ "./src/images/flag.svg":
+/*!*****************************!*\
+  !*** ./src/images/flag.svg ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"images/e068d4b1929cce2c9516.svg\";\n\n//# sourceURL=webpack:///./src/images/flag.svg?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _project_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./project.js */ \"./src/project.js\");\n\n\n\n//This adds a function to our website to click on hamburger which opens up left sidebar.\nconst hamburger=document.getElementById(\"hamburger_menu\");\nhamburger.addEventListener('click', ()=>{\n    const leftDiv=document.querySelector(\".main_left\");\n    leftDiv.classList.toggle(\"main_left_active\");\n})\n\n\n//Open a \"<dialog>\" to create a Project\nconst addProjectButton=document.getElementById(\"add_project\");\naddProjectButton.onclick=()=>(0,_project_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/project.js":
+/*!************************!*\
+  !*** ./src/project.js ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ addProject)\n/* harmony export */ });\n/* harmony import */ var _project_load_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./project_load.js */ \"./src/project_load.js\");\n\n\n\nfunction createProject(projectName){\n    const tasks=[];\n    return {projectName, tasks}\n}\n\nfunction addProject(){\n    const body=document.querySelector(\"body\");\n    const dialog=document.createElement(\"dialog\");\n    dialog.id=\"project_dialog\";\n    \n    const h3=document.createElement(\"h3\");\n    h3.textContent=\"Add a new Project\";\n\n    const dialogInputsDiv=document.createElement(\"div\");\n    dialogInputsDiv.classList.add(\"dialog_inputs\");\n    const input=document.createElement(\"input\");\n    input.type=\"text\";\n    input.placeholder=\"Project name\";\n    input.name=\"projectName\";\n    input.id=\"projectName\";\n    input.size=\"35\";\n    input.maxLength=\"30\";\n    input.required=true;\n    dialogInputsDiv.appendChild(input);\n\n    const dialogButtonsDiv=document.createElement(\"div\");\n    dialogButtonsDiv.classList.add(\"dialog_buttons\");\n    const submitButton=document.createElement(\"button\");\n    submitButton.classList.add(\"submit_button\");\n    submitButton.id=\"submit\";\n    submitButton.textContent=\"Submit\";\n    const cancelButton=document.createElement(\"button\");\n    cancelButton.classList.add(\"cancel_button\");\n    cancelButton.id=\"cancel\";\n    cancelButton.textContent=\"Cancel\";\n\n    dialogButtonsDiv.append(submitButton,cancelButton);\n    dialog.append(h3, dialogInputsDiv, dialogButtonsDiv);\n    body.appendChild(dialog);\n    \n    dialog.showModal();\n\n    cancelButton.onclick=()=>{\n        dialog.close();\n        body.removeChild(dialog);\n    }\n    \n    submitButton.onclick=()=>{\n        const project=createProject(input.value);\n        localStorage.setItem(input.value, JSON.stringify(project));\n        (0,_project_load_js__WEBPACK_IMPORTED_MODULE_0__.loadProjects)();\n    }\n    \n}\n\n//# sourceURL=webpack:///./src/project.js?");
+
+/***/ }),
+
+/***/ "./src/project_load.js":
+/*!*****************************!*\
+  !*** ./src/project_load.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   loadProjects: () => (/* binding */ loadProjects)\n/* harmony export */ });\n/* harmony import */ var _images_delete_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./images/delete.svg */ \"./src/images/delete.svg\");\n/* harmony import */ var _images_flag_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/flag.svg */ \"./src/images/flag.svg\");\n\n\n\nconst loadProjects=(function(){\n    const main=document.querySelector(\".main_projects\");\n    Object.keys(localStorage).forEach((item)=>{\n        const div=document.createElement(\"div\");\n        div.classList.add(\"project\");\n\n        const spanLeft=document.createElement(\"span\");\n        spanLeft.classList.add(\"left\");\n        const img1=document.createElement(\"img\");\n        img1.src=_images_delete_svg__WEBPACK_IMPORTED_MODULE_0__;\n        img1.alt=\"task_flag\";\n        img1.width=23;\n        img1.height=23;\n        const h3=document.createElement(\"h3\");\n        h3.textContent=`${item}`;\n\n        const spanRight=document.createElement(\"span\");\n        spanRight.classList.add(\"right\");\n        const img2=document.createElement(\"img\");\n        img2.src=_images_flag_svg__WEBPACK_IMPORTED_MODULE_1__;\n        img2.alt=\"trash_can\";\n        img2.width=23;\n        img2.height=23;\n\n        spanLeft.append(img1,h3);\n        spanRight.appendChild(img2);\n        div.append(spanLeft,spanRight);\n        main.appendChild(div);\n\n    })\n     \n})();\n\n//# sourceURL=webpack:///./src/project_load.js?");
 
 /***/ }),
 
@@ -171,6 +211,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +237,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/^blob:/, "").replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */

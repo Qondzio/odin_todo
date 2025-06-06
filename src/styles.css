@@ -99,7 +99,7 @@ main h2, h3{
 }
 .main_right h2{
     padding-top: 15px;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 #h2_project_name{
     color: rgb(5, 182, 5);
@@ -153,4 +153,44 @@ main h2, h3{
     cursor: pointer;
     background-color: rgb(209, 209, 209);
     border-radius: 5px;
+}
+dialog{
+    display: none;
+    border: none;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+dialog h3{
+    text-align: center;
+}
+.dialog_inputs, .dialog_buttons{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+input[type=text]{
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(209, 209, 209);
+}
+.dialog_buttons{
+    gap: 10px;
+    padding-top: 5px;
+}
+.dialog_buttons .submit_button, .dialog_buttons .cancel_button{
+    background-color: rgb(5, 182, 5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+}
+.dialog_buttons .cancel_button{
+    background-color: rgb(224, 5, 5);
 }
