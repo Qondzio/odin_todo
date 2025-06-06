@@ -15,4 +15,6 @@ const addProjectButton=document.getElementById("add_project");
 addProjectButton.onclick=()=>addProject();
 
 //Load stored Projects immediately after opening website
-loadProjects();
+if(localStorage.length!==0){
+    loadProjects();
+}

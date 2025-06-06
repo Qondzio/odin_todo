@@ -49,12 +49,17 @@ export default function addProject(){
     }
     
     submitButton.onclick=()=>{
+        if(localStorage.length===0)
+        {
+            localStorage.setItem("projects", "[]");
+        }
         const projects=JSON.parse(localStorage.getItem("projects"));
         projects.push(createProject(input.value));
         localStorage.setItem("projects", JSON.stringify(projects));
         loadProjects();
         dialog.close();
         body.removeChild(dialog);
+        
+        
     }
-    
 }
