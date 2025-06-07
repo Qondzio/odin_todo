@@ -1,6 +1,7 @@
 import deleteIcon from "./images/delete.svg";
 import flagIcon from "./images/flag.svg";
 import {deleteProject} from "./delete_project.js"
+import {tasks} from "./tasks.js";
 
 
 export const loadProjects=function(){
@@ -36,9 +37,14 @@ export const loadProjects=function(){
         div.append(spanLeft,spanRight);
         main.appendChild(div);
 
-        img2.addEventListener('click', ()=>{
+        img2.addEventListener('click', (event)=>{
+            event.stopPropagation();
             deleteProject(item.projectName);
             loadProjects();
+        })
+
+        div.addEventListener('click', ()=>{
+            tasks.updateTitle(item);
         })
     })
      
