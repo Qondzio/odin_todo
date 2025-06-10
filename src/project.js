@@ -9,7 +9,6 @@ function createProject(projectName){
 export default function addProject(){
     const body=document.querySelector("body");
     const dialog=document.createElement("dialog");
-    dialog.id="project_dialog";
     
     const h3=document.createElement("h3");
     h3.textContent="Add a new Project";
@@ -39,7 +38,7 @@ export default function addProject(){
 
     dialogButtonsDiv.append(submitButton,cancelButton);
     dialog.append(h3, dialogInputsDiv, dialogButtonsDiv);
-    body.appendChild(dialog);
+    document.body.appendChild(dialog);
     
     dialog.showModal();
 

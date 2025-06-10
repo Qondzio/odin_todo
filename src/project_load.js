@@ -45,6 +45,7 @@ export const loadProjects=function(){
 
         div.addEventListener('click', ()=>{
             tasks.updateTitle(item);
+            tasks.displayTasks();
         })
     })
      

@@ -34,26 +34,31 @@
                 <h2 id="project_title">Please select a Project from the left side or create a new one.</h2>
                 <h2 id="h2_project_name"></h2>
             </div>
-            <!-- <div class="main_tasks">
+            <div class="main_tasks">
                                 
             </div>
             <div class="main_add_task">
                 <img src="./images/plus-circle-outline.svg" alt="add_project" width="20" height="20">
                 <h3>Add Task</h3>
-            </div> -->
+            </div>
         </div>
     </main>
     <!-- <dialog open>
         <h3>Add a new Project</h3>
         <div class="dialog_inputs">
-            <input type="text" placeholder="Project name" required name="projectName" id="projectName" size="35" maxlength="30">
+            <input type="text" placeholder="Title" required name="title" id="title" size="35" maxlength="30">
+            <input type="date" name="date" id="date">
+            <select id="select">
+                <option value="low">Low</option>
+                <option value="medium" selected>Medium</option>
+                <option value="high">High</option>
+            </select>
+            <textarea name="description" id="description" placeholder="Description" rows="7"></textarea>
         </div>
         <div class="dialog_buttons">
             <button class="submit_button" id="submit">Submit</button>
             <button class="cancel_button" id="cancel">Cancel</button>
         </div>
-        
-        
     </dialog> -->
 </body>
 </html>
